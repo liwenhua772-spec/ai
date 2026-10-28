@@ -2,6 +2,13 @@ name: Build iPhone Login Validation
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ForestAccounts/**'
+      - 'ForestAccounts.xcodeproj/**'
+      - 'scripts/**'
+      - '.github/workflows/ios-unsigned.yml'
 
 permissions:
   contents: read
