@@ -1,0 +1,12 @@
+.DS_Store
+build/
+build-output/
+__pycache__/
+*.pyc
+*.ipa
+*.p12
+*.p8
+*.mobileprovision
+*.xcuserstate
+xcuserdata/
+delivery-report.json
